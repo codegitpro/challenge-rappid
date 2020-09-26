@@ -1,0 +1,55 @@
+{
+  "name": "cs_test_api",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "keywords": [
+    "Node",
+    "Express",
+    "Typescript",
+    "Docker",
+    "Gitlab"
+  ],
+  "author": "Tyler Stein",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index"
+  },
+  "dependencies": {
+    "@nestjs/common": "^5.1.0",
+    "@nestjs/core": "^5.1.0",
+    "@types/bluebird": "^3.5.20",
+    "@types/express": "^4.11.1",
+    "@types/sequelize": "^4.27.8",
+    "@types/stripe": "^5.0.16",
+    "bcrypt": "^3.0.4",
+    "bluebird": "^3.5.1",
+    "jsonwebtoken": "^8.2.0",
+    "mysql2": "^1.5.2",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "promise-map": "^1.2.0",
+    "random": "^2.1.1",
+    "reflect-metadata": "^0.1.12",
+    "request": "^2.87.0",
+    "rxjs": "^5.5.6",
+    "sequelize": "^4.35.2",
+    "sequelize-typescript": "^0.6.7-beta.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/node-uuid": "0.0.28",
+    "@types/nodemailer": "^4.6.2",
+    "@types/request": "^2.47.1",
+    "nodemon": "^1.17.1",
+    "rimraf": "^2.6.3",
+    "ts-node": "^4.1.0",
+    "typescript": "^3.6.3"
+  },
+  "private": true
+}
